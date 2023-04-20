@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <img src={logo} alt="Morsemoji!" />
-      <p className="tagline">Zé Mário</p>
+      <p className="tagline">Conversor de emojis</p>
 
       <EmojiPicker dot={dot} setDot={setDot} dash={dash} setDash={setDash} />
       <br />
